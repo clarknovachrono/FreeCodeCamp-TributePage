@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #dcdcdc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#title {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#img-div {
+    background-color: #fff;
+    text-align: center;
+    width: 95%;
+    margin: 0 auto
+}
+
+#img-div img {
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#img-caption {
+    padding: 15px 0;
+}
+
+#tribute-info {
+    width: 40%;
+    margin: 20px auto;
+}
+
+#tribute-info h3{
+    text-align: center;
+}
+
+#tribute-info span {
+    font-weight: bold;
+}
+
+#tribute-info ul {
+    margin-top: 20px;
+}
+
+#tribute-info ul li {
+    margin-top: 20px;
+}
+
+blockquote {
+    font-style: italic;
+    margin-top: 30px;
+}
+
+cite {
+    display: block;
+    margin-top: 15px;
+}
+
+#link-title {
+    text-align: center;
+    margin: 40px 0;
+}
+
+@media (max-width: 600px) {
+    #tribute-info {
+        width: 85%;
+    }
+}
